@@ -13,6 +13,9 @@
     "compose"
   ],
   "background": {
-    "page": "background.html"
+    "scripts": ["background.js"]
+  },
+  "compose_action": {
+    "default_title": "EEK! A WOLF"
   }
 }
