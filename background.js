@@ -9,7 +9,13 @@ browser.composeAction.onClicked.addListener(async (tab) => {
         "This email originated from the future. Do not click links or open attachments from senders you will not recognize in 1 year from now.",
         "This email contains a warning label. Warning labels are good, do not trust emails without warning labels.",
         "This email has a warning label you are probably ignoring. Do not click links or open attachments without reading the warning label.",
-    ]
+        "This email was sent from the future. Do not click links or open attachments unless you have a time machine and know the future is safe.",
+        "This email originated from your coffee machine. Do not click links or open attachments unless you are in need of caffeine.",
+        "This email originated from the Bureau of Overused Warnings. Do not click links or open attachments unless you've become numb to these warnings.",
+        "This email originated from the Council of Cried Wolf. Do not click links or open attachments unless you've already determined this is not a false alarm.",
+        "This email originated from the Union of Overprotective Measures. Do not click links or open attachments unless you've already taken unnecessary precautions.",
+        "This email originated from inside of Utrecht University. Do not click links or open attachments unless you've already decided to disregard this warning."
+    ];
 
     const message = messages[Math.floor(Math.random() * messages.length)]
 
