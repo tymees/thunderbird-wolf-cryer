@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "author": "Ty Mees",
+  "name": "Wolf Cryer",
+  "description": "Inserts a 'boy who cried wold' warning to all emails",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "wolfcryer@tymees.nl"
+    }
+  },
+  "permissions": [
+    "compose"
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}
