@@ -5,6 +5,7 @@ browser.composeAction.onClicked.addListener(async (tab) => {
 
     const messages = [
         "This email originated from inside of Utrecht University. Do click links or open attachments, especially if you don't recognize the sender or know the content is safe.",
+        "This email originated from inside of Utrecht University. Don't click links or open attachments, especially if you do recognize the sender or know the content is safe.",
         "This email originated from outer space. Do not click links or open attachments that have not been approved by the Galactic Council.",
         "This email originated from the future. Do not click links or open attachments from senders you will not recognize in 1 year from now.",
         "This email contains a warning label. Warning labels are good, do not trust emails without warning labels.",
